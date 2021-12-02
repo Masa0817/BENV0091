@@ -43,7 +43,7 @@ retrieve_data <- function(data_loc){
   return(df)
 }
 
-df <- retrieve_data('data/occupancy')
+df <- retrieve_data('occupancy')
 
 # Show first few rows
 head(df)
